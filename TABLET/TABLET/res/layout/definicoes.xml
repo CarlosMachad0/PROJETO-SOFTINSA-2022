@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Definicoes">
+
+  <androidx.constraintlayout.widget.Barrier
+      android:id="@+id/barrier2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:barrierDirection="left" />
+
+  <androidx.constraintlayout.widget.Barrier
+      android:id="@+id/barrier3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:barrierDirection="top" />
+
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:id="@+id/bottomNavigationView"
+      android:layout_width="0dp"
+      android:layout_height="78dp"
+      android:background="@color/azulESCURO"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.0">
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="36dp"
+        android:layout_height="35dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.534"
+        app:srcCompat="@drawable/iconback"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="128dp"
+        android:text="Configurações"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+  <ImageView
+      android:id="@+id/imageView5"
+      android:layout_width="288dp"
+      android:layout_height="101dp"
+      android:layout_marginTop="100dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.497"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="@+id/bottomNavigationView"
+      app:layout_constraintVertical_bias="0.222"
+      app:srcCompat="@drawable/logosoftinsa" />
+
+  <Button
+      android:id="@+id/button2"
+      android:layout_width="229dp"
+      android:layout_height="73dp"
+      android:text="Alterar Sala"
+      android:textSize="20sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.497"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="@+id/bottomNavigationView"
+      app:layout_constraintVertical_bias="0.718" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EscolherSala"
+    android:keepScreenOn="true">
+
+  <androidx.constraintlayout.widget.Barrier
+      android:id="@+id/barrier2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:barrierDirection="left" />
+
+  <androidx.constraintlayout.widget.Barrier
+      android:id="@+id/barrier3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:barrierDirection="top" />
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:id="@+id/bottomNavigationView"
+      android:layout_width="0dp"
+      android:layout_height="95dp"
+      android:background="@color/azulESCURO"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.666"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.0">
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/iconback" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="136dp"
+        android:layout_height="33dp"
+        android:text="Alterar Sala"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+  <ImageView
+      android:id="@+id/imageView4"
+      android:layout_width="69dp"
+      android:layout_height="68dp"
+      android:background="@color/white"
+      android:backgroundTint="@color/white"
+      android:foregroundTint="#8E24AA"
+      app:tint="@color/azulESCURO"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.129"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.3"
+      app:srcCompat="@drawable/ic_baseline_domain_24" />
+
+  <ImageView
+      android:id="@+id/imageView6"
+      android:layout_width="70dp"
+      android:layout_height="63dp"
+      app:tint="@color/azulESCURO"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.132"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.477"
+      app:srcCompat="@drawable/ic_baseline_meeting_room_24" />
+
+  <Spinner
+      android:id="@+id/spinnerCentros"
+      android:layout_width="207dp"
+      android:layout_height="31dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.71"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.305"
+      />
+
+  <Spinner
+      android:id="@+id/spinnerSalas"
+      android:layout_width="208dp"
+      android:layout_height="28dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.714"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.48" />
+
+  <Button
+      android:id="@+id/button4"
+      android:layout_width="165dp"
+      android:layout_height="58dp"
+      android:text="Guardar Sala"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.56"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.797" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
