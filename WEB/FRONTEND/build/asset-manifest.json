@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7f01f285.css",
+    "main.js": "/static/js/main.577dd73e.js",
+    "static/media/Joao.png": "/static/media/Joao.0e1486e790cb634342c5.png",
+    "static/media/Carlos.png": "/static/media/Carlos.a3694077b119ee5242d8.png",
+    "static/media/Nuno.png": "/static/media/Nuno.7d05309310949ba6e97d.png",
+    "static/media/Eduardo.png": "/static/media/Eduardo.3aea8f4d9b48999fa3c6.png",
+    "static/media/Logo_Softinsa.png": "/static/media/Logo_Softinsa.f673b9c1c311468594f5.png",
+    "static/media/undraw_Real_time_sync_re_nky7.png": "/static/media/undraw_Real_time_sync_re_nky7.bb06f03e2fad84a5ac2d.png",
+    "static/media/Logo_Softinsa_branco.png": "/static/media/Logo_Softinsa_branco.ef31229416493f7cd211.png",
+    "index.html": "/index.html",
+    "main.7f01f285.css.map": "/static/css/main.7f01f285.css.map",
+    "main.577dd73e.js.map": "/static/js/main.577dd73e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f01f285.css",
+    "static/js/main.577dd73e.js"
+  ]
+}

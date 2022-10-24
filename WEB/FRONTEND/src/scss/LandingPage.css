@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+.Menu {
+  background-color: #a3a3a3;
+}
+
+.Brand {
+  width: 200px;
+  height: 100px;
+}
+
+.Lista {
+  list-style: none;
+  text-decoration: none;
+  margin: 0px 10px 0px 10px;
+}
+
+.Link {
+  text-decoration: none;
+}
+
+.botao {
+  margin-left: 20px;
+}
+
+.hero {
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+.heroImagem {
+  width: 600px;
+  height: 500px;
+}
+
+.Equipa {
+  background-color: rgba(227, 224, 224, 0.7215686275);
+  font-family: "Roboto", sans-serif;
+}
+
+.FotoPerfil {
+  width: 200px;
+  height: 100px;
+}/*# sourceMappingURL=LandingPage.css.map */

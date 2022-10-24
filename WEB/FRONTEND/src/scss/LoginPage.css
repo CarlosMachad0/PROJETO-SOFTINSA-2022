@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+.Login {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+}
+
+.subtexto {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+}
+
+.logo_Login {
+  width: 350px;
+  height: 200px;
+}
+
+.inputLogin {
+  width: 100%;
+}
+
+.linha {
+  width: 15%;
+}
+
+.Imagemperfil {
+  width: 50px;
+  height: 40px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 2px;
+}/*# sourceMappingURL=LoginPage.css.map */

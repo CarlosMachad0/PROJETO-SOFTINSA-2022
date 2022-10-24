@@ -1,0 +1,139 @@
+@import './variaveis.scss';
+@import './listar.scss';
+@import './editar.scss';
+
+
+.label-input {
+    font-size: 2ch;
+    padding: 0% 0% 0% 1%;
+}
+
+.numeroUtilizadores {
+    background-color: $AzulClaro;
+    height: 100px;
+    width: 200px;
+    font-family: $font-family;
+    color: $Branco;
+    font-size: 0.9em;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 7px 8px 10px;
+    margin: 0% 0% 0% 2%;
+}
+
+.numeroUtilizadoresativos {
+    background-color: $Verde;
+    height: 100px;
+        width: 200px;
+    font-family: $font-family;
+    color: $Branco;
+    font-size: 0.9em;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 7px 8px 10px;
+    margin: 0% 0% 0% 3%;
+}
+
+.numeroUtilizadoresinativos {
+    background-color: $Vermelho;
+    height: 100px;
+    width: 200px;
+    font-family: $font-family;
+    color: $Branco;
+    font-size: 0.9em;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 7px 8px 10px;
+    margin: 0% 0% 0% 3%;
+}
+
+.ReservasporDatas {
+    background-color: $CinzentoEscuro;
+    height: 100px;
+    width: 500px;
+    font-family: $font-family;
+    color: $Branco;
+    font-size: 0.9em;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 7px 8px 10px;
+    margin: 0% 0% 0% 3%;
+}
+
+.piechart{
+    background-color: $CinzentoClaro;
+    height: 400px;
+    width: 470px;
+    font-family: $font-family;
+    font-size: 0.9em;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 7px 8px 10px;
+    margin: 0px 0px 0px 30px;
+}
+
+.piecharparent{
+    height: 400px;
+    width: 400px;
+}
+
+.dashboard-input {
+    border-radius: 10px;
+    border: 2px solid;
+    margin: -1% 0% 1% 2%;
+}
+
+.BotaoPesquisar {
+    box-shadow: rgba(0, 0, 0, 0.24) 7px 8px 10px;
+    background-color: $AzulClaro;
+    border-radius: 10px;
+    width: 150px;
+    height: 35px;
+    margin-left: 2%;
+    margin-right: 60px;
+}
+
+.tituloGrafico{
+    font-family: $font-family;
+    font-size: 0.9em;
+}
+
+.Percentagem_Alocacao{
+    background-color: $CinzentoClaro;
+    height: 300px;
+    width: 1230px;
+    font-family: $font-family;
+    font-size: 0.9em;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 7px 8px 10px;
+    margin: 0px 0px 0px 30px;
+}
+
+.alocacao{
+    width: 400px;
+    height: 400px;
+}
+
+.TabelasSalasPorLimpar{
+    background-color: $CinzentoClaro;
+    height: 400px;
+    width: 700px;
+    font-family: $font-family;
+    font-size: 0.9em;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 7px 8px 10px;
+    margin: 0% 0% 0% 18%;
+}
+
+.tabelaSalasPorLimpar {
+    position: relative;
+    top: 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 10px 10px 10px;
+}
+
+.ReservasFeitas {
+    background-color: $CinzentoClaro;
+    height: 400px;
+    width: 1230px;
+    font-family: $font-family;
+    font-size: 0.9em;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 7px 8px 10px;
+    margin: 0% 0% 0% 2%;
+}
+

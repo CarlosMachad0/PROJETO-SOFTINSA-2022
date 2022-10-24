@@ -1,0 +1,49 @@
+@import './variaveis.scss';
+
+.icon_box{
+    background-image: linear-gradient($AzulEscuro,$AzulClaro);
+    width: 50px;
+    height: 48px;
+    border-radius: 25%;
+}
+
+.Titulo_Pagina{
+    color: $Cinzento;
+    font-family: $font-family;
+}
+
+.botao_adicionar{
+    background-image: linear-gradient(to right, $AzulEscuro, $AzulClaro);
+    font-family: $font-family;
+    font-size: 95%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 7px 8px 10px;
+}
+
+.tabela {
+    position: relative;
+    top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 10px 10px 10px;
+}
+
+.botaoAcao{
+    width: 90px;
+    height: 35px;
+    color: $Branco;
+}
+
+.imagem{
+    width:60px;
+    height: 60px;
+}
+
+.BotaoVoltar {
+    box-shadow: rgba(0, 0, 0, 0.24) 7px 8px 10px;
+    border: 5px black;
+    border-radius: 10px;
+    width: 150px;
+    height: 35px;
+    background-color: $CinzentoEscuro;
+    margin-left: 2%;
+    margin-right: 40px;
+}

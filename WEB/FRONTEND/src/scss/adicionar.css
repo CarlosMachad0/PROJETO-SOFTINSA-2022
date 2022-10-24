@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+.icon_box {
+  background-image: linear-gradient(#114b82, #4791ff);
+  width: 50px;
+  height: 48px;
+  border-radius: 25%;
+}
+
+.Titulo_Pagina {
+  color: #b7b7b7;
+  font-family: "Roboto", sans-serif;
+}
+
+.botao_adicionar {
+  background-image: linear-gradient(to right, #114b82, #4791ff);
+  font-family: "Roboto", sans-serif;
+  font-size: 95%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 7px 8px 10px;
+}
+
+.tabela {
+  position: relative;
+  top: 50px;
+  box-shadow: rgba(0, 0, 0, 0.24) 10px 10px 10px;
+}
+
+.botaoAcao {
+  width: 90px;
+  height: 35px;
+  color: #ffffff;
+}
+
+.imagem {
+  width: 60px;
+  height: 60px;
+}
+
+.BotaoVoltar {
+  box-shadow: rgba(0, 0, 0, 0.24) 7px 8px 10px;
+  border: 5px black;
+  border-radius: 10px;
+  width: 150px;
+  height: 35px;
+  background-color: #a3a3a3;
+  margin-left: 2%;
+  margin-right: 40px;
+}
+
+.icon_box {
+  background-image: linear-gradient(#114b82, #4791ff);
+  width: 50px;
+  height: 48px;
+  border-radius: 25%;
+}
+
+.Titulo_Pagina {
+  color: #b7b7b7;
+  font-family: "Roboto", sans-serif;
+}
+
+.botao_adicionar {
+  background-image: linear-gradient(to right, #114b82, #4791ff);
+  font-family: "Roboto", sans-serif;
+  font-size: 95%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 7px 8px 10px;
+}
+
+.tabela {
+  position: relative;
+  top: 50px;
+  box-shadow: rgba(0, 0, 0, 0.24) 10px 10px 10px;
+}
+
+.botaoAcao {
+  width: 90px;
+  height: 35px;
+  color: #ffffff;
+}
+
+.imagem {
+  width: 60px;
+  height: 60px;
+}
+
+.BotaoVoltar {
+  box-shadow: rgba(0, 0, 0, 0.24) 7px 8px 10px;
+  border: 5px black;
+  border-radius: 10px;
+  width: 150px;
+  height: 35px;
+  background-color: #a3a3a3;
+  margin-left: 2%;
+  margin-right: 40px;
+}
+
+.formulario {
+  background-color: #ffffff;
+  width: 500px;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9em;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 7px 8px 10px;
+  margin-top: 10px;
+}
+
+.formulario-titulo {
+  font-size: 3.2ch;
+  color: #a3a3a3;
+  padding-left: 1%;
+  padding-top: 2%;
+}
+
+.formulario-label-input {
+  font-size: 2ch;
+  color: #a3a3a3;
+  padding: 0% 0% 1% 1%;
+}
+
+.formulario-input {
+  border-radius: 10px;
+  width: 80%;
+  border: 2px solid;
+  margin: -1% 0% 1% 1%;
+}
+
+.formulario-input-largo {
+  border-radius: 10px;
+  width: 90%;
+  border: 2px solid;
+  margin: -1% 0% 1% 1%;
+}
+
+.BotaoCancelar {
+  box-shadow: rgba(0, 0, 0, 0.24) 7px 8px 10px;
+  border: 5px black;
+  border-radius: 10px;
+  width: 150px;
+  height: 35px;
+  background-color: #a3a3a3;
+}
+
+.BotaoConfirmar {
+  box-shadow: rgba(0, 0, 0, 0.24) 7px 8px 10px;
+  border-radius: 10px;
+  width: 150px;
+  height: 35px;
+  margin-left: 2%;
+  margin-right: 60px;
+}/*# sourceMappingURL=adicionar.css.map */
