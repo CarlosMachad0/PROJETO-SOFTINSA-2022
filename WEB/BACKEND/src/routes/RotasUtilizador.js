@@ -1,0 +1,31 @@
+const express = require('express');
+const {upload} = require('../../app')
+const Router = express.Router();
+const UtilizadoresController = require('../controllers/utilizadorController');
+
+//listar
+Router.get('/list', UtilizadoresController.list)
+//Listar utilizadores com base no centro
+Router.get('/listUsers/:id', UtilizadoresController.listUtilizadores)
+//Selecionar
+Router.get('/get/:id', UtilizadoresController.get)
+//Editar
+Router.put('/update/:id', UtilizadoresController.update)
+//Editar
+Router.put('/updateMobile/:id', UtilizadoresController.updateMobile)
+//Eliminar
+Router.post('/delete/:id', UtilizadoresController.delete)
+//Registar
+Router.post('/register', upload.single("image"),UtilizadoresController.register);
+//Desativar
+Router.put('/desativar/:id', UtilizadoresController.inativar);
+//Ativar
+Router.put('/ativar/:id', UtilizadoresController.ativar);
+//Obter Centros que pertence
+Router.get('/pertence/:id', UtilizadoresController.centros);
+//Atualizar a palavra passe
+Router.put('/editpasse/:id', UtilizadoresController.atualizarPalavraPasse);
+//Registar Utilizador por ficheiro
+Router.post('/ficheiro', UtilizadoresController.ficheiro)
+
+module.exports = Router;
