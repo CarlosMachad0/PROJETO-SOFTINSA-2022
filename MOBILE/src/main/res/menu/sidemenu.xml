@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/perfil"
+            android:icon="@drawable/ic_conta"
+            android:title="Perfil"/>
+
+        <item android:id="@+id/qrcode"
+            android:icon="@drawable/ic_qrcode"
+            android:title="Ler QRCode"/>
+
+        <item android:id="@+id/espacos"
+            android:icon="@drawable/ic_listaespacos"
+            android:title="Lista de espaços"/>
+
+        <item android:id="@+id/reservas"
+            android:icon="@drawable/ic_reserva"
+            android:title="Lista de reservas"/>
+
+        <item android:id="@+id/sair"
+            android:icon="@drawable/ic_logout"
+            android:title="Sair"/>
+
+    </group>
+</menu>

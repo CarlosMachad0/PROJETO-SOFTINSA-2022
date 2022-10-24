@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ecraReserva">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="25dp">
+
+    <TextView
+        android:id="@+id/nomeEspaco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nome da sala"
+        android:textSize="25dp"
+        android:textColor="@color/azulPrimario"/>
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="Número de participantes"
+                android:textColor="@color/azulPrimario"/>
+
+            <TextView
+                android:id="@+id/maxParticipantes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(max 15)"
+                android:textColor="@color/azulSecundario"/>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+        <NumberPicker
+            android:id="@+id/numeroParticipantes"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/asdas"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginBottom="3dp"
+            android:textColor="@color/azulPrimario"
+            android:text="Etiqueta"/>
+
+        <EditText
+            android:id="@+id/etiqueta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:background="@drawable/asdas"
+            android:hint="etiqueta (opcional)"
+            android:padding="15dp"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginBottom="3dp"
+            android:textColor="@color/azulPrimario"
+            android:text="Data *"/>
+
+        <EditText
+            android:id="@+id/data"
+            android:padding="15dp"
+            android:textSize="15dp"
+            android:background="@drawable/asdas"
+            android:hint="Data *"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/azulPrimario"
+            android:text="Hora inicio *"/>
+
+        <EditText
+            android:id="@+id/horaInicio"
+            android:padding="15dp"
+            android:textSize="15dp"
+            android:background="@drawable/asdas"
+            android:hint="Hora inicio *"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/azulPrimario"
+            android:text="Hora fim *"/>
+
+        <EditText
+            android:id="@+id/horaFim"
+            android:padding="15dp"
+            android:textSize="15dp"
+            android:background="@drawable/asdas"
+            android:hint="Hora fim *"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/voltar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Voltar"
+            android:layout_marginRight="15dp"
+            style="?attr/materialButtonOutlinedStyle" />
+
+        <Button
+            android:id="@+id/btnReservar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reservar" />
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

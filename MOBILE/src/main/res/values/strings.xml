@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SoftBook</string>
+    <string name="open">abrir</string>
+    <string name="close">fechar</string>
+</resources>

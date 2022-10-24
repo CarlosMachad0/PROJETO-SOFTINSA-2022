@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mobile">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_softinsa"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Mobile">
+        <activity
+            android:name=".ecraListaReservasPassadas"
+            android:exported="false"
+            android:label="Lista reservas passadas"/>
+        <activity
+            android:name=".ecraVerReserva"
+            android:exported="false"
+            android:label="Detalhe da reserva"/>
+        <activity
+            android:name=".ecraListaReservasAtuais"
+            android:exported="false"
+            android:label="Lista reservas atuais"/>
+        <activity
+            android:name=".ecraPerfil"
+            android:exported="false"
+            android:label="Perfil utilizador"/>
+        <activity
+            android:name=".ecraQRCode"
+            android:exported="false"
+            android:label="Ler QRCode" />
+        <activity
+            android:name=".ecraMudarPassword"
+            android:exported="false"
+            android:label="Alterar password" />
+        <activity
+            android:name=".ecraReserva"
+            android:exported="false"
+            android:label="Resevar espaco" />
+        <activity
+            android:name=".ecraLogin"
+            android:exported="false"
+            android:label="Log in" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
